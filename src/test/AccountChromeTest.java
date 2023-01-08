@@ -22,7 +22,7 @@ public class AccountChromeTest {
 
     @Test
     @Description("Check click on constructor button")
-    public void checkClickOnConstructorButton_True() {
+    public void checkClickOnConstructorButtonTrue() {
         RegistrationPage objRegisterPage = new RegistrationPage(driver);
         MainPage objMainPage = new MainPage(driver);
         LoginPage objLoginPage = new LoginPage(driver);
@@ -52,7 +52,7 @@ public class AccountChromeTest {
 
     @Test
     @Description("Check click on logo button")
-    public void checkClickOnLogoButton_True() {
+    public void checkClickOnLogoButtonTrue() {
         RegistrationPage objRegisterPage = new RegistrationPage(driver);
         MainPage objMainPage = new MainPage(driver);
         LoginPage objLoginPage = new LoginPage(driver);

@@ -10,11 +10,11 @@ import java.util.concurrent.TimeUnit;
 public class AccountPage {
     private WebDriver driver;
     private String accountURL = "https://stellarburgers.nomoreparties.site/account/";
-    private By accountText = By.xpath("//div/nav/p[text()='В этом разделе вы можете изменить свои персональные данные']");
-    private By exitButton = By.xpath("//nav/ul/li[3]/button");
-    private By constructorButton = By.xpath("//header/nav/ul/li[1]/a");
-    private By logoButton = By.xpath("/html/body/div/div/header/nav/div/a");
-
+    private By accountText = By.xpath(".//p[text()='В этом разделе вы можете изменить свои персональные данные']");
+    private By exitButton = By.xpath(".//button[text()='Выход']");
+    private By constructorButton = By.xpath(".//p[text()='Конструктор']");
+    private By logoButton = By.xpath(".//div[@class='AppHeader_header__logo__2D0X2']/a");
+//тут поправила
 
     public AccountPage(WebDriver driver) {
         this.driver = driver;

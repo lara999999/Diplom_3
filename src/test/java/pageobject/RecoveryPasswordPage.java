@@ -7,8 +7,8 @@ public class RecoveryPasswordPage {
     private WebDriver driver;
 
     private String recoverPasswordURL = "https://stellarburgers.nomoreparties.site/forgot-password";
-    private By enterButton = By.xpath("//div/p/a");
-
+    private By enterButton = By.xpath(".//a[text()='Войти']");
+//тут исправила
 
     public RecoveryPasswordPage(WebDriver driver) {
         this.driver = driver;
